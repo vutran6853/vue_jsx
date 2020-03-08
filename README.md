@@ -2,14 +2,6 @@
 
 this demo demonstration how to approach Vue render function & JSX
 
-
-
-```
-  <input v-model="message" placeholder="edit me">
-    <p>Message is: {{ message }}</p>
-
-```
-
 ```js
   <!-- v-model -->
   <template>
