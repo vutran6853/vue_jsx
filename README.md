@@ -38,4 +38,5 @@ npm run serve
 - example of vue-router -> useing render function
 - example of Form input Bindings -> useing render function
 
+## Contributing
 Contributions and issues of any kind welcome!
