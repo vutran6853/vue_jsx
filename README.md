@@ -12,10 +12,14 @@ this demo demonstration how to approach Vue render function & JSX
 
 ```js
   <!-- JSX -->
-  <div>
-    <input value={this.message} oninput={this.handleSetMessage} placeholder="edit me">
-    <p>Message is: {this.message}</p>
-  </div>
+  render() {
+    return (
+      <div>
+        <input value={this.message} oninput={this.handleSetMessage} placeholder="edit me">
+        <p>Message is: {this.message}</p>
+      </div>
+    )
+  }
 ```
 
 ## Project setup
