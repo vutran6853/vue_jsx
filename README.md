@@ -1,5 +1,31 @@
 # vue_jsx_demo
 
+this demo demonstration how to approach Vue render function & JSX
+
+
+
+```
+  <input v-model="message" placeholder="edit me">
+    <p>Message is: {{ message }}</p>
+
+```
+
+```js
+  <!-- v-model -->
+  <template>
+    <input v-model="message" placeholder="edit me">
+    <p>Message is: {{ message }}</p>
+  </template>
+```
+
+```js
+  <!-- JSX -->
+  <div>
+    <input value={this.message} oninput={this.handleSetMessage} placeholder="edit me">
+    <p>Message is: {this.message}</p>
+  </div>
+```
+
 ## Project setup
 ```
 npm install
@@ -10,10 +36,4 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Contributions of any kind welcome!
