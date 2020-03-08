@@ -1,4 +1,4 @@
-# vue_jsx_demo
+# Vue with render function & JSX Demo
 
 this demo demonstration how to approach Vue render function & JSX
 
