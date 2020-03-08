@@ -5,7 +5,7 @@ this demo demonstration how to approach Vue render function & JSX
 ```js
   <!-- v-model -->
   <template>
-    <input v-model="message" placeholder="edit me">
+    <input value="message" v-model="message" placeholder="edit me">
     <p>Message is: {{ message }}</p>
   </template>
 ```
