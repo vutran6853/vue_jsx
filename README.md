@@ -32,4 +32,10 @@ npm install
 npm run serve
 ```
 
-Contributions of any kind welcome!
+### TODO
+
+- example of v-slot -> useing render function
+- example of vue-router -> useing render function
+- example of Form input Bindings -> useing render function
+
+Contributions and issues of any kind welcome!
