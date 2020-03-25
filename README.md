@@ -22,6 +22,30 @@ render() {
 }
 ```
 
+```js
+<!-- v-for -->
+<template>
+  <li v-for="(item) in items" v-bind:key="item.id">
+    {{ item.message }}
+  </li>  <p>Message is: {{ message }}</p>
+</template>
+```
+
+```js
+<!-- JSX -->
+render() {
+  return (
+    <div>
+      {
+        this.items.map((item) => (
+          <li key={item.id}>{item.thing}</li>
+        ))
+      }
+    </div>
+  )
+}
+```
+
 ## Project setup
 ```
 npm install

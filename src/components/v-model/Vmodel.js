@@ -17,6 +17,9 @@ const Vmodel = Vue.extend({
       <div>
         {/* v-model */}
         <input type="text" oninput={this.handleSetName} placeholder="Enter a message" />
+
+        {/* example 2 inline function call */}
+        <input type="text" oninput={(event) => this.message = event.target.value } placeholder="Enter a message" />
       </div>
     )
   }
