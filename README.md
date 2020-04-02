@@ -65,8 +65,8 @@ npm run serve
 Contributions and issues of any kind welcome!
 
 1. Fork it!
-2. Create your feature branch: `git checkout myBrnachname -b `
-3. Commit your changes: `git commit -am 'myBrnachname: add example'`
-4. Push to the branch: `git push origin myBrnachname`
+2. Create your feature branch: `git checkout myBranchName -b `
+3. Commit your changes: `git commit -am 'myBranchName: add example'`
+4. Push to the branch: `git push origin myBranchName`
 5. Submit a pull request
 
